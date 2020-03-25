@@ -8,7 +8,7 @@ pdns:
     - "53:53/udp"
     - "8088:8081"
   environment:
-    - PDNSCONF_API_KEY=a_strong_api_key
+    - PDNSCONF_API_KEY=38c2dbe54f481664ff04e91ee2c757fe
     - PDNSCONF_MASTER=yes
     - PDNSCONF_DEFAULT_SOA_NAME=ns1.ixedns.com
     - PDNSCONF_DNSUPDATE=yes
