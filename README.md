@@ -24,6 +24,12 @@ curl -L https://github.com/docker/compose/releases/download/1.7.1/docker-compose
 Save the following snippet as docker-compose.yaml in any folder you like, or clone this repository, which contains the same file.
 
 ```
+git clone https://github.com/surichard/vlmcsd-docker.git pdns
+cd pdns
+mkdir log
+```
+
+```
 pdns:
   image: interlegis/powerdns:4.0.1-1
   links:
